@@ -1,0 +1,32 @@
+body{
+	font-size:18;
+	background:gray;
+	text-align:center;
+}
+h1, h2, h3, p{
+	color:white;
+	font-family:Arial;
+}
+
+.keyword{
+	text-decoration:underline;
+	font-weight:bold;
+}
+.container1{
+	display:flex;
+}
+.container1 div{
+	border:1px white solid;
+}
+.box1{
+	flex:1;
+	order:2;
+}
+.box2{
+	flex:2;
+	order:1;
+}
+.box3{
+	flex:1;
+	order:3;
+}
